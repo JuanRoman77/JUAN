@@ -1,0 +1,28 @@
+---
+name: Report
+about: Reports on analysis or abtesting
+title: 'Report: '
+labels: report
+assignees: ''
+
+---
+
+## Hypothesis
+
+## Tests
+
+### Default
+
+### Variant1
+
+### Variant2
+
+## Goals
+
+## Data
+
+## Discussion
+
+## Result
+
+## References
