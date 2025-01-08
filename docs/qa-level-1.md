@@ -36,8 +36,8 @@ A new version of the game goes live to production (Colonist.io) every week on Tu
 
 - `development` branch: Conduct regular smoke testing on the `development` branch (always live on onlinecatan.com), focusing on recently merged PRs to ensure everything works as expected
 
-- `staging` branch: When a new version of the game is created ([example PR](https://github.com/colonistio/katan/pull/10186)) and deployed to hexs.io, conduct regression testing focusing on the PRs that were merged that version
-  - Compiled list of PRs merged into `staging` (previously tested in `development`) that should be re-tested, can be found in the version thread, inside the [development category](https://discord.com/channels/605233308577562643/731686966613114891) in Discord. It can also be found in Github searching for PRs with the following titles: `v172 development -> staging` and `v172 staging -> development (2)`, in the [Closed Pull requests list](https://github.com/colonistio/katan/pulls?q=is%3Apr+is%3Aclosed)
+- `staging` branch: When a new version of the game is created and deployed to hexs.io, conduct regression testing focusing on the PRs that were merged that version
+  - Compiled list of PRs merged into `staging` (previously tested in `development`) that should be re-tested, can be found in the version thread, inside the [development category](https://discord.com/channels/605233308577562643/731686966613114891) in Discord. It can also be found in Github searching for PRs with the following titles: `v172 development -> staging` and `v172 staging -> development (2)`, in the closed Pull requests list
 - Conduct web, mobile and Discord regression following the [Regression Testing Checklists](./../testing//regression-testing-checklist.md) and [Smoke Testing Checklists](./../testing//smoke-testing-checklist.md)
 
 ## Testing production
