@@ -15,7 +15,6 @@
     - [Test cases](#test-cases)
   - [Misc](#misc)
     - [Tips](#tips)
-    - [Useful links](#useful-links)
 
 ## Testing specific PRs
 
