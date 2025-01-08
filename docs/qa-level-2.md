@@ -24,7 +24,6 @@
 - Always check [Discord and Github notifications]([https://i.imgur.com/mTVGKOr.png](https://github.com/colonistio/katan/blob/development/docs/welcome/how-to-use-discord-and-github.md#notifications))
 
 ### Testing open branches
-- Read [this](../welcome/test-deployments.md) 
 - Under each PR, there is a "Click to deploy PR" link
 - Clicking it will open `deploy.katan.io`, and the PR will be automatically deployed to one of the 10 test servers
 - Deployment typically takes around 10 seconds
@@ -71,7 +70,7 @@ If everything is working as expected in every affected platform, you should appr
 ## After testing
 
 - Hide the comment used to deploy a branch to test server, and mark it as outdated: https://imgur.com/a/avTJi7y  
-- Comment on the PR which cases you tested: [example](https://github.com/colonistio/katan/pull/13655#issuecomment-1787747672)
+- Comment on the PR which cases you tested: [example](https://i.imgur.com/odhd1hj.png)
   - If you didn't test the PR, check the test cases posted by other QAs, and add untested cases into the PR body (if any)
  
 ### Test cases
@@ -86,11 +85,3 @@ If everything is working as expected in every affected platform, you should appr
 - You can test production, staging, and development branches by deploying them via `deploy.katan.io`. This will allow you to use in game commands
 - You can modify code in specific PRs for testing without creating separate PRs. Simply copy the branch, make the changes, and deploy via `deploy.katan.io`
 
-### Useful links
-
-- [In-game commands](./../welcome/in-game-commands.md)
-- [FAQ & Test credit card info](https://github.com/colonistio/katan/blob/development/docs/misc/faq.md)
-- [API testing](./../testing/api-testing.md)
-- [Deleting/manipulating Google account](https://www.loom.com/share/96056ce7c0fa40d8b252d3d37cd60e7e)
-- [UI testing](./../testing/ui-testing.md)
-- [UI browser tests](./../testing/ui-browser-tests.md)
