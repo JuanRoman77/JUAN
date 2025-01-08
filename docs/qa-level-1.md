@@ -23,7 +23,7 @@
 
 ## Development cycle
 
-A new version of the game goes live to production (Colonist.io) every week on Tuesday (check [Patch Notes](https://colonist.io/patch-notes) and [Product Cycle](./../company/schedule.md))
+A new version of the game goes live to production (Colonist.io) every week on Tuesday (check [Patch Notes](https://colonist.io/patch-notes))
 
 1. Every cycle we test open Pull Requests (PRs) that will be merged into the `development` branch
 2. 24 hours before release, the new `staging` version is created and deployed to a test server: https://hexs.io
