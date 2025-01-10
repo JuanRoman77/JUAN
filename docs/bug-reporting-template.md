@@ -1,10 +1,6 @@
 Template:
 
-```md
-## FEATURE NAME
-Branch: jeff/main-ranked-fixes - Sub-branch: jeff/fix-leaderboards-apis
-PR: https://github.com/colonistio/katan/pull/xxxx Sub-PR: https://github.com/colonistio/katan/pull/yyyy
-```
+**FEATURE NAME**
 
 1.
 Bug description:  
